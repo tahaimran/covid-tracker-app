@@ -29,8 +29,8 @@ function App() {
   }, [])
   return (
     <covidContext.Provider value={{covData, data, setData}}>
-      <Filters/>
       <Main />
+      <Filters/>
       <CountryShow/>
     </covidContext.Provider>
   )
